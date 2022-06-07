@@ -1,0 +1,27 @@
+.navbar{
+    position: absolute;
+    justify-content: space-around;
+    display: flex;
+    min-height: 8vh;
+    width: 100%;
+    align-items: center;
+}
+
+.link {
+    text-decoration: none;
+  }
+
+  .navlinks{
+      display: flex;
+      justify-content: space-around;
+      list-style: none;
+      width: 50%;
+      font-size: 30px;
+      font-weight: 400;
+  }
+
+  .cyberpvnkers{
+      display: flex;
+      font-size: 60px;
+
+  }
