@@ -9,6 +9,9 @@
 
 .link {
     text-decoration: none;
+    color: #FFFFFF;
+
+    z-index: 1;
   }
 
   .navlinks{
