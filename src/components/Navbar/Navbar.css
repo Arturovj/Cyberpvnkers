@@ -13,6 +13,14 @@
     z-index: 1;
   }
 
+  .link a {
+      color: #FFFFFF;
+  }
+
+  .link a:hover {
+    color: #fb0000;
+}
+
   .navlinks{
       display: flex;
       justify-content: space-around;

@@ -6,19 +6,14 @@ export default function Navbar() {
   return (
     <div className="navbar">
       <div className="cyberpvnkers link">
-      <Link to="/" >
-        <h4 >CYBERPVNKERS</h4>
+        <Link to="/">
+          <h4>CYBERPVNKERS</h4>
         </Link>
       </div>
       <ul className="navlinks">
         <li className="link">
           <a href="/">HOME</a>
-        </li>
-          {" "}
-          <li className="link">
-            <a href="about">ABOUT</a>
-          </li>
-      
+        </li>{" "}
         <li className="link">
           <a href="nfts">NFTs</a>
         </li>
@@ -27,6 +22,9 @@ export default function Navbar() {
         </li>
         <li className="link">
           <a href="contact">Contact us</a>
+        </li>
+        <li className="link">
+          <a href="about">About</a>
         </li>
       </ul>
     </div>
