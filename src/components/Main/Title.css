@@ -7,5 +7,79 @@
     top: 50%;
     transform: translate(-50%, -50%);
     font-size: 80px;
+    white-space: normal;
 
+}
+
+
+h1{
+    text-align: center;
+    margin: 0 auto;
+    display: inline;
+}
+
+
+.wrapper {
+    width: auto;
+}
+
+.line__1,
+.line__2 {
+  white-space: nowrap; /* keep text in one line */
+  overflow: hidden; /* hide text behind the cursor */
+  margin: 0.1rem auto;
+}
+
+.line__1 {
+  border-right: 2px solid rgba(17, 17, 17, 0.9);
+
+  /* define animation types for text + cursor */
+  animation: animated-text__1 4s steps(25, end) 1s 1 normal both,
+    animated-cursor__1 700ms steps(25, end) 1;
+}
+
+.line__2 {
+  border-right: 2px solid rgba(17, 17, 17, 0.9);
+
+  /* define animation types for text + cursor */
+  animation: animated-text__2 3s steps(25, end) 1s 1 normal both,
+    animated-cursor__2 900ms steps(25, end) infinite;
+  -webkit-animation-delay: 5s;
+  animation-delay: 5s;
+}
+
+@keyframes animated-cursor__1 {
+  from {
+    border-right-color: rgba(255, 132, 0, 0.9);
+  }
+  to {
+    border-right-color: rgba(255, 255, 255, 0.8);
+  }
+}
+
+@keyframes animated-cursor__2 {
+  from {
+    border-right-color: rgba(255, 132, 0, 0.9);
+  }
+  to {
+    border-right-color: rgba(255, 255, 255, 0.8);
+  }
+}
+
+@keyframes animated-text__1 {
+  from {
+    width: 0;
+  }
+  to {
+    width: 30rem;
+  }
+}
+
+@keyframes animated-text__2 {
+  from {
+    width: 0;
+  }
+  to {
+    width: 35rem;
+  }
 }
