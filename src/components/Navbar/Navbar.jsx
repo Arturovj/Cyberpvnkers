@@ -27,6 +27,9 @@ export default function Navbar() {
           <a href="about">About</a>
         </li>
       </ul>
+      <div style={{cursor: 'pointer'}} className="hamburguer-toggle">
+        <i style={{cursor: 'pointer'}}  className="fas fa-bars fa-lg"></i>
+      </div>
     </div>
   );
 }

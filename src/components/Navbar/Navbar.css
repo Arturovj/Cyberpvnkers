@@ -35,3 +35,10 @@
       font-size: 60px;
 
   }
+
+  .hamburguer-toggle{
+
+      cursor: pointer;
+      color: #FFFFFF;
+      display: none;
+  }
