@@ -1,4 +1,4 @@
-.navbar{
+nav{
     position: absolute;
     justify-content: space-around;
     display: flex;
@@ -10,7 +10,7 @@
 .link {
     text-decoration: none;
     color: #FFFFFF;
-    z-index: 1;
+    z-index: 5;
   }
 
   .link a {
@@ -41,4 +41,33 @@
       cursor: pointer;
       color: #FFFFFF;
       display: none;
+      z-index: 5;
+  }
+
+  @media screen and (max-width: 850px) {
+    body {
+      overflow-x: hidden;
+    }
+    .hamburguer-toggle{
+      display: block;
+    }
+    .navlinks {
+        z-index: 5;
+      position:absolute;
+      right: 0px;
+      display: flex;
+      flex-direction: column;
+      height: 92vh;
+      align-items: center;
+      width: 100%;
+      top: 8vh;
+      background-color: teal;
+      font-size: 40px;
+      transform: translateX(100%);
+      transition: transform 0.5s ease-in;
+    }
+  
+    .active {
+      transform: translateX(0%);
+    }
   }

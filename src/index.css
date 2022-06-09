@@ -25,19 +25,7 @@ a {
 }
 
 
-@media screen and (max-width: 850px) {
-  .hamburguer-toggle{
-    display: block;
-  }
-  .navlinks {
-    position:absolute;
-    right: 0px;
-    display: flex;
-    flex-direction: column;
-    height: 92vh;
-    align-items: center;
-    width: 100%;
-    top: 8vh;
-  }
-}
+
+
+
   
