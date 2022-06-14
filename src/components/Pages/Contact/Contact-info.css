@@ -1,0 +1,31 @@
+.contact-info{
+    text-decoration: none;
+    color: #FFFFFF;
+    z-index: 2;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 80px;
+    
+}
+
+.email{
+    display: flex;  
+    justify-content: center;
+}
+
+.email-icon{
+    width: 100px;
+    height: 100px;
+}
+
+.github{
+    display: flex;  
+    justify-content: center;
+}
+
+.github-icon{
+    width: 85px;
+    height: 85px;
+}
