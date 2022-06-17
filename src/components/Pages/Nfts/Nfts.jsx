@@ -2,6 +2,7 @@ import React from 'react'
 import nfts from '../../../assets/nfts.gif'
 import './Nfts.css'
 import { motion } from 'framer-motion'
+import Nft from '../../Nft/Nft'
 
 export default function Nfts() {
   return (
@@ -13,6 +14,7 @@ export default function Nfts() {
         >
 
         <img className='nfts-gif' src={nfts}></img>
+        <Nft></Nft>
         </motion.div>
     </div>
   )

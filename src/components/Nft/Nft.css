@@ -1,0 +1,18 @@
+.nft{
+    z-index: 4;
+}
+
+.nft-img{
+    width: 100px;
+    z-index: 9;
+}
+
+.nft-container{
+    color: #FFFFFF;
+    z-index: 5;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 80px;
+}

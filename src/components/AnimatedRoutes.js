@@ -6,6 +6,7 @@ import Services from "./Pages/Services/Services";
 import Nfts from "./Pages/Nfts/Nfts";
 import { Main } from "./Main/Main";
 import Contact from "./Pages/Contact/Contact";
+import Prueba from "./Pages/Prueba/Prueba";
 
 export default function AnimatedRoutes() {
   const location = useLocation();
@@ -17,6 +18,8 @@ export default function AnimatedRoutes() {
         <Route path="/NFTS" element={<Nfts />} />
         <Route path="/" element={<Main />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/prueba" element={<Prueba />} />
+
       </Routes>
     </AnimatePresence>
   );
