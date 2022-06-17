@@ -28,4 +28,15 @@
 .github-icon{
     width: 85px;
     height: 85px;
+    filter: invert(1);
+}
+
+.linkedin{
+    display: flex;  
+    justify-content: center;
+}
+
+.linkedin-icon{
+    width: 85px;
+    height: 85px;
 }

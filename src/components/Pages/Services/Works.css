@@ -1,0 +1,113 @@
+.title{
+    text-decoration: none;
+    color: #FFFFFF;
+    z-index: 1;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 80px;
+    white-space: normal;
+
+}
+
+
+h1{
+    text-align: center;
+    margin: 0 auto;
+    display: inline;
+}
+
+
+.wrapper {
+    width: auto;
+}
+
+.line__11,
+.line__22,
+.line__33 {
+  white-space: nowrap; /* keep text in one line */
+  overflow: hidden; /* hide text behind the cursor */
+  margin: 0.1rem auto;
+}
+
+.line__11 {
+  border-right: 2px solid rgba(17, 17, 17, 0.9);
+
+  /* define animation types for text + cursor */
+  animation: animated-text__11 4s steps(25, end) 1s 1 normal both,
+    animated-cursor__11 700ms steps(25, end) 1;
+}
+
+.line__22 {
+  border-right: 2px solid rgba(17, 17, 17, 0.9);
+
+  /* define animation types for text + cursor */
+  animation: animated-text__22 3s steps(25, end) 1s 1 normal both,
+    animated-cursor__22 900ms steps(25, end);
+  -webkit-animation-delay: 5s;
+  animation-delay: 5s;
+}
+.line__33 {
+    border-right: 2px solid rgba(17, 17, 17, 0.9);
+  
+    /* define animation types for text + cursor */
+    animation: animated-text__33 2s steps(25, end) 1s 1 normal both,
+      animated-cursor__33 900ms steps(25, end) infinite;
+    -webkit-animation-delay: 8s;
+    animation-delay: 8s;
+  }
+
+@keyframes animated-cursor__11 {
+  from {
+    border-right-color: rgba(255, 132, 0, 0.9);
+  }
+  to {
+    border-right-color: rgba(255, 255, 255, 0.8);
+  }
+}
+
+@keyframes animated-cursor__22 {
+  from {
+    border-right-color: rgba(255, 132, 0, 0.9);
+  }
+  to {
+    border-right-color: rgba(255, 255, 255, 0.8);
+  }
+}
+@keyframes animated-cursor__33 {
+    from {
+      border-right-color: rgba(255, 132, 0, 0.9);
+    }
+    to {
+      border-right-color: rgba(255, 255, 255, 0.8);
+    }
+  }
+
+@keyframes animated-text__11 {
+  from {
+    width: 0;
+  }
+  to {
+    width: 50rem;
+  }
+}
+
+@keyframes animated-text__22 {
+  from {
+    width: 0;
+  }
+  to {
+    width: 50rem;
+  }
+}
+
+@keyframes animated-text__33 {
+    from {
+      width: 0;
+    }
+    to {
+      width: 45rem;
+    }   
+    }
+
