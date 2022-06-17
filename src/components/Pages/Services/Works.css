@@ -20,6 +20,13 @@ h1{
 }
 
 
+
+h4{
+    font-size: 7.0vh;
+}
+
+
+
 .wrapper {
     width: auto;
 }
@@ -90,7 +97,7 @@ h1{
     width: 0;
   }
   to {
-    width: 50rem;
+    width: 29rem;
   }
 }
 
@@ -99,7 +106,7 @@ h1{
     width: 0;
   }
   to {
-    width: 50rem;
+    width: 30rem;
   }
 }
 
@@ -108,7 +115,7 @@ h1{
       width: 0;
     }
     to {
-      width: 45rem;
+      width: 27rem;
     }   
     }
 

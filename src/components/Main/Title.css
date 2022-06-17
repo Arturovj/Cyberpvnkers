@@ -16,8 +16,17 @@ h1{
     text-align: center;
     margin: 0 auto;
     display: inline;
+    font-size: 10.9vw;
 }
 
+h2{
+  font-size: 8.0vh;
+}
+
+
+h3 {
+  font-size: 5.0vh;
+}
 
 .wrapper {
     width: auto;
@@ -83,3 +92,4 @@ h1{
     width: 20rem;
   }
 }
+
