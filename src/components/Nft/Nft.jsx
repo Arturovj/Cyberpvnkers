@@ -8,10 +8,11 @@ export default function Nft() {
   return (
     <>
       <div className="nft-container">Nfts
-      <div>
+      <div className="nft-display">
         {data.map((nft, index) => (
           <div className="nft" key={index}>
-            {nft.name}
+            <div>{nft.name}</div>
+            
             <img className="nft-img" src={nft.img}></img>
           </div>
         ))}
